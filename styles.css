@@ -1,0 +1,48 @@
+.top {
+	background-color: #5BACDE;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+  height: 30vh;
+  display: grid;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.profile {
+    border-radius: 75%;
+}
+.profile2 {
+    font-weight: 700;
+    font-size: 38px;
+}
+footer {
+    background-color: #5BACDE;
+    font-weight: bold;
+}
+h3 {
+    color: #5BACDE;
+}
+h2 {
+    color: #5BACDE;
+}
+.btn {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5BACDE;
+    font-family: sans-serif;
+    border-radius: 12px;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, #5BACDE, #11999e);
+}
